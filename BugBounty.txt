@@ -1,0 +1,13 @@
+Reportes de vulnerabilidades
+L_> Llegan a TRIAGER y ahi debemos "pelearlos"
+
+Criticidad y CVVS
+L_> CVSS Common Vulnerability Scoring System
+L_> Mide que tan vulnerables son las vulnerabilidades que encontramos
+L_> www.first.org/cvss/calculator/3.1
+L_> OWASP TOP 10: Anualmente publican las 10 vulnerabilidades mas encontradas
+
+Sitio de BB
+L_> hackerone.com
+L_> Podemos ver las pagas por diferentes rangos de vulnerabilidad, y diferentes detalles del BB
+
