@@ -1,0 +1,72 @@
+GISSIC UTN FRC - Practicas de codigo seguro en plataformas web y moviles - German Parisi
+
+Quien es? 
+Ing. en SI de la FRC
+Especialista en ciberseguridad
+Apasionado por la informatica
+Docente
+Investigador en Ciberseguridad en GISSIC
+Co-funde Pabex
+
+A que se refiere la ciberseguridad? A grandes rasgos, incluye los rubros de malwares, inteligencia de amenazas, infraestructura, criptografia, codigo seguro, ingenieria
+social, seguridad operacional, concientizacion, informatica forense y pentesting, e inclusive combinaciones de ellos
+
+Como hacemos software seguro?
+Desde los requerimientos, desde el momento 0 en el que iniciamos el software
+Desde las historias de usuario
+Teniendo en cuenta los criterios de aceptacion
+Preguntandonos que posibles flaws puede haber en el uso del software (un usuario paciente puede consultar los turnos de otros pacientes? y si es otro usuario del 
+sistema?)
+Lograr cambiar y aumentar la visibilidad de la seguridad en el desarrollo
+
+Que hacer para desarrollar software seguro?
+Seguridad desde os requerimientos
+Aprender practicas de codigo seguro e incorporar habitos que lo pongan en perspectiva
+Gestion de codigo seguro
+Analisis de seguridad, no se puede evitar el pentesting
+Red Team y Blue Team, equipos dentro de la empresa que piensan como romper y como defender el sistema respectivamente
+Despliegue seguro (configuraciones) sea en local o en nube
+
+Depende del lenguaje y del framework
+Aplicacion web
+Aplicacion de escritorio
+Aplicacion mobile
+Otro tipo de aplicaciones
+Todo depende del framework y lenguaje que usemos
+Es dificil dar muchos tips abstractos o genericos, debemos ir a la aplicacion para poder especificar bien
+En esta charla vimos especificamente plataformas web
+
+Problemas web
+XSS
+SQLi
+IOR
+CSRF
+SSRF
+Condiciones de carrera (es uno de los que mas resultados genera en los nuevos softwares) -> Tiras 2 peticiones a la vez y esperas a que explote la response
+Path Traversal
+NoSQLi
+Autenticacion
+OAuth (exploit de login)
+
+Si ademas le agregamos la LLM (IA de texto) es mas vulnerable
+
+Validaciones
+En el front tenemos validaciones orientadas mas a la integridad de los datos / UX
+En el bacj tenemos validaciones orientadas mas a la seguridad de los datos
+
+Demo 1 - IDOR
+https://softwareseguro.com.ar
+Ejercicio Aldeas Seguras
+
+Ataques a LLMs (Large Language Models)
+Interactuar con chatbots que despues interactuen con la misma API del sitio que estamos atacando
+
+Demo 2 - XSS
+Mandas codigo JS desde el cliente que queda almacenado en el servidor y despues se descarga en la computadora atacada
+APP usada -> Docker
+
+Demo 3 - CSS en LLM
+Es lo mismo que XSS pero con un modelo de IA
+Laboratorio de PortSwigger -> Exploiting insecure output handling in LLMs
+
+
